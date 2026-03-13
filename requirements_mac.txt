@@ -1,0 +1,7 @@
+jax[apple]
+flax
+optax
+numpy
+pandas
+matplotlib
+scikit-learn
