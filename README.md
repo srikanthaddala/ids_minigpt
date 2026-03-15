@@ -1,5 +1,3 @@
-
-```markdown
 # PhysicsGuard: Edge-Deployed Transformer IDS for Automotive CAN
 
 **PhysicsGuard** is a Cyber-Physical Intrusion Detection System (IDS) that leverages a **Mini-GPT Transformer** to validate the "Physical Sanity" of vehicle signals. By reasoning about decoded signal vectors (Speed, RPM, Throttle) rather than just CAN IDs, it detects stealthy, sub-threshold attacks that bypass traditional security layers.
@@ -30,7 +28,6 @@ graph TB
         J & I --> K[JAX JIT Inference]
         K --> L{Anomaly Scorer}
     end
-
 ```
 
 ## 🚀 Research Highlights
